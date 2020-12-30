@@ -1,0 +1,12 @@
+ON DELETE CASCADE : 부모 테이블의 데이터 삭제 시 해당 데이터를 참조하고
+있던 자식테이블의 데이터까지 모두 삭제하는 옵션이다.
+참조하는 primary key 값의 값을 삭제 및 수정하지 못하게 한다.
+
+ON DELETE SET NULL : 부모 테이블 데이터 삭제 시 참조하고 있던 자식 테이블의 
+컬럼 값을 NULL로 변경하는 옵션
+
+tool - forwardEngineer - schma genaration -preview
+코드가 자동적으로 생성되서 보여준다
+
+ASC는 오름차순, DESC는 내림차순
+ALTER TABLE은 기존 테이블의 구조를 변형시키고 고칠 수 있다.
